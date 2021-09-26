@@ -87,12 +87,12 @@ class RestaurantTest {
 
         List<String> selectItem = new ArrayList<>();
         selectItem.add("Briyani");
-        selectItem.add("Sweet Corn");
+        selectItem.add("Gulab Jamun");
         selectItem.add("Vegetable lasagne");
 
-        int totalPrince = restaurant.calculateAmountSelectedItem(selectItem);
+        int totalPrice = restaurant.calculateAmountSelectedItem(selectItem);
 
-        assertEquals(0,0);
+        assertEquals(519,totalPrice);
 
     }
 }
