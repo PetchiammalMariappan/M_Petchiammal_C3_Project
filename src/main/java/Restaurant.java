@@ -72,4 +72,8 @@ public class Restaurant {
         return name;
     }
 
+    public int calculateAmountSelectedItem(List<String> selectItem) {
+
+        return 0;
+    }
 }

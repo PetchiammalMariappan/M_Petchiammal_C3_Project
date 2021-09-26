@@ -92,5 +92,7 @@ class RestaurantTest {
 
         int totalPrince = restaurant.calculateAmountSelectedItem(selectItem);
 
+        assertEquals(0,0);
+
     }
 }
